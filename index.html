@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Handwriting Recognition App</title>
+</head>
+
+<body>
+    <h1>Handwriting Recognition</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".jpg, .jpeg, .png, .gif">
+        <input type="submit" value="Upload">
+    </form>
+
+    {% if result %}
+    <h2>Result for {{ filename }}:</h2>
+    <p>{{ result }}</p>
+    {% endif %} {% if error %}
+    <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+
+</html>
