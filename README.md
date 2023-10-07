@@ -4,7 +4,9 @@
 ## Overview
 
 This project is focused on Optical Character Recognition (OCR), a technology that extracts text from images. The goal is to provide a simple and flexible OCR solution using Python and popular libraries.
-
+## Credit 
+-made by CTRL-ALT-CODE at junction X Algiers 
+Team : Anes , Mehdi ,Willem , Sidali
 ## Features
 
 - Real-time OCR from webcam feed.
